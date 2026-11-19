@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Harshit Bangera | Creative Designer, AI Automation & Brand Strategy</title>
+<meta name="description" content="Creative design, hyper-realistic AI art, prompt engineering, AI automations and entry-level strategic branding for any brand.">
+<meta name="theme-color" content="#0a0a0f">
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&family=Orbitron:wght@700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0a0a0f;--panel:#12121a;--ink:#e8f7ff;--mute:#8a93a6;--yel:#fcee0a;--cyan:#00f0ff;--red:#ff003c;--line:#2a2a3a;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#0a0a0f}}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Rajdhani,'Segoe UI',sans-serif;font-size:18px;line-height:1.5;
+background-image:linear-gradient(rgba(0,240,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(0,240,255,.04) 1px,transparent 1px);background-size:40px 40px}
+body:after{content:"";position:fixed;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,rgba(0,0,0,.18) 0 1px,transparent 1px 3px)}
+a{color:var(--cyan);text-decoration:none}
+.mono{font-family:'Share Tech Mono',monospace}
+header{position:sticky;top:0;z-index:20;background:rgba(10,10,15,.9);backdrop-filter:blur(8px);border-bottom:1px solid var(--yel);display:flex;justify-content:space-between;align-items:center;padding:12px 5vw;flex-wrap:wrap;gap:8px}
+.logo{font-family:Orbitron;font-weight:900;color:var(--yel);font-size:22px}
+nav a{margin-left:18px;color:var(--ink);text-transform:uppercase;letter-spacing:.12em;font-size:14px}nav a:hover{color:var(--yel)}
+section{padding:80px 5vw;max-width:1100px;margin:auto}
+.tag{font-family:'Share Tech Mono';color:var(--cyan);font-size:13px;letter-spacing:.15em;text-transform:uppercase}
+h1,h2,h3{font-family:Orbitron;margin:.3em 0}
+h1{font-size:clamp(36px,8vw,82px);line-height:1;color:var(--yel);text-shadow:3px 3px 0 var(--red);margin:.2em 0}
+h2{font-size:clamp(26px,4.5vw,40px);color:var(--yel)}h3{font-size:16px;color:var(--cyan);letter-spacing:.08em}
+.glitch{animation:gl 4s infinite}@keyframes gl{0%,92%,100%{transform:none}94%{transform:translate(-3px,1px);text-shadow:-3px 0 var(--cyan),3px 0 var(--red)}96%{transform:translate(3px,-1px)}}
+.btn{display:inline-block;padding:12px 26px;margin:6px 10px 6px 0;font-weight:700;text-transform:uppercase;letter-spacing:.1em;clip-path:polygon(0 0,100% 0,100% 70%,92% 100%,0 100%);cursor:pointer;border:0;font-family:inherit;font-size:16px}
+.btn.p{background:var(--yel);color:#000}.btn.s{background:var(--cyan);color:#000}.btn:hover{filter:brightness(1.15)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;margin-top:24px}
+.card{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--yel);padding:20px;clip-path:polygon(0 0,100% 0,100% calc(100% - 14px),calc(100% - 14px) 100%,0 100%)}
+.card.c{border-left-color:var(--cyan)}.card.r{border-left-color:var(--red)}
+.card ul{margin:8px 0 0;padding-left:18px;color:var(--mute)}.card p{color:var(--mute);margin:6px 0 0}
+.status{display:inline-block;padding:3px 10px;border:1px solid var(--cyan);color:var(--cyan);font-family:'Share Tech Mono';font-size:13px}
+.status:before{content:"";display:inline-block;width:8px;height:8px;background:var(--cyan);border-radius:50%;margin-right:8px;animation:bl 1.2s infinite}@keyframes bl{50%{opacity:.2}}
+.marq{overflow:hidden;border-block:1px solid var(--line);background:var(--yel);color:#000;font-family:Orbitron;font-weight:700;white-space:nowrap}
+.marq div{display:inline-block;padding:10px 0;animation:mq 25s linear infinite}.marq span{margin:0 26px}@keyframes mq{to{transform:translateX(-50%)}}
+.steps{counter-reset:s;list-style:none;padding:0}.steps li{counter-increment:s;padding:10px 0 10px 54px;position:relative;border-bottom:1px dashed var(--line)}
+.steps li:before{content:"0" counter(s);position:absolute;left:0;top:10px;font-family:Orbitron;color:var(--red)}.steps b{color:var(--ink)}.steps small{display:block;color:var(--mute);font-size:16px}
+.sim{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:20px}@media(max-width:700px){.sim{grid-template-columns:1fr}nav{display:none}}
+.term{background:#050508;border:1px solid var(--cyan);padding:14px;min-height:230px;font-family:'Share Tech Mono';font-size:14px;color:var(--cyan);white-space:pre-wrap}
+.post{aspect-ratio:4/5;max-height:300px;border:1px solid var(--yel);background:linear-gradient(135deg,#1b1b2b,#0a0a0f);display:flex;align-items:center;justify-content:center;font-family:Orbitron;color:var(--yel);text-align:center;transition:.6s}
+.post.live{background:linear-gradient(135deg,var(--red),#2a0030 60%,var(--cyan));color:#fff;box-shadow:0 0 30px rgba(255,0,60,.5)}
+.grade{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.grade button{background:transparent;color:var(--ink);border:1px solid var(--line);padding:6px 14px;font-family:inherit;cursor:pointer;text-transform:uppercase}.grade button.on{border-color:var(--yel);color:var(--yel)}
+.swatches{display:flex;gap:12px;flex-wrap:wrap}.sw{width:120px;padding:44px 8px 8px;font-family:'Share Tech Mono';font-size:13px;color:#000;cursor:pointer;border:0;text-align:left}
+.lab{background:var(--panel);border:1px solid var(--line);padding:20px;margin-top:20px}
+.lab input[type=text]{background:#000;border:1px solid var(--cyan);color:var(--cyan);padding:8px;font-family:'Share Tech Mono';width:100%;max-width:300px}
+.out{font-family:Orbitron;font-weight:900;color:var(--yel);margin-top:14px;text-shadow:2px 2px 0 var(--red);overflow:hidden;white-space:nowrap}
+.card{transition:transform .2s,box-shadow .2s}.card:hover{transform:translateY(-4px);box-shadow:0 0 22px rgba(252,238,10,.25)}.card.c:hover{box-shadow:0 0 22px rgba(0,240,255,.3)}.card.r:hover{box-shadow:0 0 22px rgba(255,0,60,.35)}
+#bar{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,var(--red),var(--yel),var(--cyan));z-index:40}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.tabs button{background:transparent;color:var(--ink);border:1px solid var(--line);padding:7px 16px;font-family:inherit;font-size:15px;cursor:pointer;text-transform:uppercase;letter-spacing:.08em}.tabs button.on,.tabs button:hover{border-color:var(--yel);color:var(--yel)}
+.card.hide{display:none}
+.steps li{cursor:pointer}.steps li:after{content:"+";position:absolute;right:4px;top:10px;color:var(--cyan);font-family:'Share Tech Mono'}.steps li.open:after{content:"–"}
+.steps small{max-height:0;overflow:hidden;transition:max-height .3s}.steps li.open small{max-height:80px;margin-top:4px}.steps li.open b{color:var(--yel)}
+footer{border-top:1px solid var(--yel);padding:24px 5vw;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;color:var(--mute)}
+</style>
+</head>
+<body id="top"><div id="bar"></div>
+<header><a class="logo" href="#top">HB//</a><nav><a href="#about">About</a><a href="#skills">Abilities</a><a href="#automation">Automation</a><a href="#branding">Branding</a><a href="#graphicc">Graphicc</a><a href="#contact">Contact</a></nav><span class="mono tag" id="clock">IST --:--</span></header>
+
+<section style="padding-top:70px">
+<span class="status">STATUS: WORKING WITH GRAPHICC.IN</span>
+<p class="tag">HB-01 // creative unit</p>
+<h1 class="glitch">HARSHIT<br>BANGERA</h1>
+<p style="max-width:620px;font-size:21px">Creative designer, AI artist, prompt engineer and automation builder. I help <b style="color:var(--yel)">any brand</b> look sharper, post smarter and run faster.</p>
+<a class="btn p" href="#skills">See abilities</a><a class="btn s" href="#contact">Get in touch</a>
+</section>
+
+<div class="marq"><div><span>HYPER-REALISTIC AI ART</span><span>AI AUTOMATIONS &amp; REPORTS</span><span>PROMPT ENGINEERING</span><span>STRATEGIC BRANDING</span><span>CONTENT &amp; COPY</span><span>HYPER-REALISTIC AI ART</span><span>AI AUTOMATIONS &amp; REPORTS</span><span>PROMPT ENGINEERING</span><span>STRATEGIC BRANDING</span><span>CONTENT &amp; COPY</span></div></div>
+
+<section id="about">
+<p class="tag">// about</p><h2>Do-everything, done precisely</h2>
+<p>I'm a creative designer who also writes, markets and automates. I make <b>hyper-realistic art with AI</b>, build <b>AI automations</b> for content, websites and business reports, and bring <b>entry-level strategic branding</b> to help a brand find its voice and position. With <b>prompt engineering across many AI tools</b>, I get exact results instead of lucky ones. Give me a brief and I'll deliver the visuals, the copy, the strategy and the system that keeps it running.</p>
+<p>I'm studying psychology with a goal of industrial-organizational psychology, which shapes how I think about audiences, behaviour and teams.</p>
+<div class="grid">
+<div class="card"><h3>Independent creative freelancer</h3><ul><li>AI art, ad concepts and campaign copy</li><li>PowerPoint design for academic and business use</li><li>Content, reports and research for individuals and small businesses</li><li>Entry-level Claude training and custom skill files</li></ul></div>
+<div class="card c"><h3>Automations maker &amp; researcher · graphicc.in</h3><ul><li>Build workflow pipelines and automations for the team</li><li>Website automations and website fix automations</li><li>Research and reports on key business factors</li><li>Workflow content and direct assistance to the founder</li></ul></div>
+</div>
+</section>
+
+<section id="skills">
+<p class="tag">// abilities</p><h2>What I can do for your brand</h2>
+<div class="tabs" id="tabs"><button class="on" data-f="all">All</button><button data-f="creative">Creative</button><button data-f="auto">Automation</button><button data-f="brand">Branding</button></div>
+<div class="grid">
+<div class="card" data-cat="creative"><h3>Creative &amp; design</h3><ul><li>Hyper-realistic AI art</li><li>Creative direction</li><li>Visual and presentation design</li><li>Social media post and carousel design</li><li>Ad creatives and campaign visuals</li><li>Brand moodboards and style references</li><li>AI image and concept generation</li><li>Colour grading and visual consistency</li></ul></div>
+<div class="card c" data-cat="auto"><h3>AI automations</h3><ul><li>Auto-posting content pipelines</li><li>Prompt systems and Claude skill files</li><li>Website automations</li><li>AI-generated SEO, website, Google Search and ChatGPT search reports</li><li>Approval and quality-check flows</li></ul></div>
+<div class="card r" data-cat="brand"><h3>Entry-level strategic branding</h3><ul><li>Brand positioning basics</li><li>Audience and competitor research</li><li>Tone of voice and messaging</li><li>Visual identity direction</li></ul></div>
+<div class="card" data-cat="brand creative"><h3>Marketing &amp; content</h3><ul><li>AI marketing strategy</li><li>Ad concepts and copywriting</li><li>Research and reports</li></ul></div>
+<div class="card c" data-cat="creative auto brand"><h3>Tools</h3><ul><li>Claude, ChatGPT, Gemini, Grok</li><li>MS Office</li></ul></div>
+</div>
+</section>
+
+<section id="automation">
+<p class="tag">// ai automations</p><h2>A brand that runs itself</h2>
+<p>I can build AI sequences that create a brand's content and publish it on schedule, in the brand's own look.</p>
+<p class="mono" style="color:var(--mute);font-size:13px">tap a step to expand it</p>
+<ol class="steps">
+<li><b>Brand brief &amp; rules</b><small>Colours, tone, formats and themes set once.</small></li>
+<li><b>Prompt system</b><small>Custom prompts per content type across multiple AI tools.</small></li>
+<li><b>Generate</b><small>Images, captions and hashtags created from the brief.</small></li>
+<li><b>Quality check</b><small>Checked against brand style, with optional human approval.</small></li>
+<li><b>Schedule</b><small>Approved posts lined up on a content calendar.</small></li>
+<li><b>Auto-post</b><small>Goes live automatically, no manual uploading.</small></li>
+</ol>
+<h3 style="margin-top:40px">More automations I can build</h3>
+<div class="grid">
+<div class="card c"><h3>Website automations</h3><ul><li>Form, lead and enquiry routing</li><li>Auto-replies and follow-up emails</li><li>Content updates and publishing workflows</li><li>Scheduled site checks and alerts</li></ul></div>
+<div class="card r"><h3>AI business reports</h3><p>Reports written and sent automatically on a schedule, in plain language with clear next actions.</p></div>
+</div>
+<div class="grid">
+<div class="card"><h3>SEO reports</h3><ul><li>Keyword and ranking movement</li><li>On-page and content gaps</li><li>Competitor comparison</li></ul></div>
+<div class="card"><h3>Website issue reports</h3><ul><li>Broken links and errors</li><li>Speed and mobile problems</li><li>Missing titles and descriptions</li></ul></div>
+<div class="card"><h3>Google Search reports</h3><ul><li>Clicks, impressions and queries</li><li>Top pages and trends</li><li>Opportunities worth acting on</li></ul></div>
+<div class="card"><h3>ChatGPT search reports</h3><ul><li>Whether the brand shows up in AI answers</li><li>Which sources AI tools cite</li><li>How competitors are mentioned</li></ul></div>
+</div>
+</section>
+
+<section id="branding">
+<p class="tag">// strategic branding</p><h2>Entry-level strategy, solid foundations</h2>
+<p>I help early brands and small businesses get the basics right before the design starts.</p>
+<div class="grid">
+<div class="card r"><h3>01 Discover</h3><p>Audience, competitor and category research to find the gap.</p></div>
+<div class="card r"><h3>02 Position</h3><p>A clear promise, a point of difference and a message people repeat.</p></div>
+<div class="card r"><h3>03 Express</h3><p>Voice, colour, type and visual direction that stay consistent.</p></div>
+<div class="card r"><h3>04 Roll out</h3><p>Content plans and automations that keep the brand showing up.</p></div>
+</div>
+</section>
+
+<section id="graphicc">
+<p class="tag">// currently</p><h2>Working with graphicc.in</h2>
+<span class="status">STATUS: WORKING WITH GRAPHICC.IN</span>
+<p style="margin-top:18px">I'm currently working with <b style="color:var(--yel)">Graphicc</b>, a branding and packaging design agency in Pune that helps D2C and FMCG founders turn great products into premium brands. Their approach is strategy first: clear positioning, then design that stays consistent across print, packaging, website and social media.</p>
+<div class="card" style="margin-top:22px;border-left-color:var(--red)">
+<p class="tag" style="margin:0">graphicc.in</p>
+<h3 style="font-size:clamp(20px,3.5vw,32px);color:var(--yel);margin:8px 0">Strategically Built. Instinctively Chosen.</h3>
+<p>Passion product to premium brand.</p>
+<a class="btn p" href="https://graphicc.in" target="_blank" rel="noopener">Visit graphicc.in</a>
+</div>
+<div class="grid">
+<div class="card c"><h3>Strategic branding &amp; logo design</h3><p>Strategy-led identities that sharpen a brand and make it memorable.</p></div>
+<div class="card c"><h3>Product packaging design</h3><p>Packaging built for first impressions and shelf impact.</p></div>
+<div class="card c"><h3>Creative artwork &amp; illustration</h3><p>Illustrations, doodle art and mascots that carry a brand's story.</p></div>
+<div class="card c"><h3>Website design</h3><p>Sites that bring the brand strategy online and support sales.</p></div>
+</div>
+<h3 style="margin-top:36px">My role</h3>
+<p>I'm Graphicc's <b style="color:var(--yel)">automations maker and researcher</b>, and I work directly alongside the founder.</p>
+<div class="grid">
+<div class="card c"><h3>Automations maker</h3><ul><li>Build workflow pipelines that keep the team running smoothly</li><li>Create AI-powered systems that save time on repeat tasks</li><li>Website automations for the Graphicc site</li><li>Website fix automations that find and resolve site issues</li></ul></div>
+<div class="card"><h3>Researcher</h3><ul><li>Research support for branding and packaging design projects</li><li>Reports on the important business factors that guide decisions</li></ul></div>
+<div class="card r"><h3>Workflow content</h3><ul><li>I write the content that supports the team's workflows</li></ul></div>
+<div class="card"><h3>Founder assistant</h3><ul><li>Direct support to the founder on day-to-day work and priorities</li></ul></div>
+</div>
+</section>
+
+
+<section id="contact">
+<p class="tag">// contact</p><h2>Let's [ build ]</h2>
+<p>Have a brief, a brand or a content system that needs a point of view? Send it over.</p>
+<p class="mono">harshleydiabolos@gmail.com</p>
+<a class="btn p" href="mailto:harshleydiabolos@gmail.com">Write to me</a><button class="btn s" id="copy">Copy email</button>
+</section>
+
+<footer><span>© 2026 Harshit Bangera · Mumbai region, India</span><a href="#top">Back to top</a></footer>
+
+<script>
+const $=s=>document.querySelector(s);
+function tick(){try{$('#clock').textContent='IST '+new Date().toLocaleTimeString('en-GB',{timeZone:'Asia/Kolkata',hour:'2-digit',minute:'2-digit'})}catch(e){}}tick();setInterval(tick,30000);
+$('#copy').onclick=function(){try{navigator.clipboard.writeText('harshleydiabolos@gmail.com');this.textContent='Copied!';setTimeout(()=>this.textContent='Copy email',1200)}catch(e){}};
+
+document.querySelectorAll('.steps li').forEach((li,i)=>{if(i==0)li.classList.add('open');li.onclick=()=>li.classList.toggle('open')});
+document.querySelectorAll('#tabs button').forEach(b=>b.onclick=()=>{document.querySelectorAll('#tabs button').forEach(x=>x.classList.remove('on'));b.classList.add('on');const f=b.dataset.f;document.querySelectorAll('#skills .card').forEach(c=>c.classList.toggle('hide',f!='all'&&!(c.dataset.cat||'').split(' ').includes(f)))});
+addEventListener('scroll',()=>{const h=document.documentElement;$('#bar').style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%'},{passive:true});
+</script>
+</body>
+</html>
